@@ -16,3 +16,5 @@ This project was generated with [Angular CLI] version 14.2.9 using HTML & SCSS f
 Run `npm install`.
 
 Run `ng serve --open`.
+
+use any username and password in `users.json` file located in service folder
