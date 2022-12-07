@@ -1,0 +1,15 @@
+<div class="navbar">
+  <div class="left">
+    <img src="/assets/image/Content.png" alt="Image" />
+    <p>ClickTik</p>
+    <a routerLink="/">Home</a>
+    <a routerLink="/dashboard">Dashboard</a>
+
+  </div>
+  <div class="right">
+    <input type="text" (keyup)="searchMethod($event)" [(ngModel)]="searchWord" placeholder="Search.." />
+    <a routerLink="/cart">Cart</a>
+    <a>Account</a>
+
+  </div>
+</div>

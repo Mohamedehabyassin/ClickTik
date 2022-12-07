@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Products</h1>
+  <form [formGroup]="form">
+    <label class="label" *ngFor="let category of categories">
+      <input type="checkbox" (change)="categoryChangeMethod(category)" />
+      {{ category }}
+    </label>
+  </form>
+</div>

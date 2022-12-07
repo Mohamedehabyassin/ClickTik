@@ -1,0 +1,19 @@
+.container {
+  // display: flex;
+  //grid-template-rows: 1fr 1fr 1fr;
+  //  flex-direction: row;
+  // flex-wrap: wrap;
+  // &:after {
+  //   content: "";
+  //   display: table;
+  //   clear: both;
+  // }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .controls {
+    margin: auto 80px;
+  }
+}

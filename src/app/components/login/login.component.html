@@ -1,0 +1,36 @@
+<main>
+  <form
+    id="login_form"
+    class="form_class"
+    [formGroup]="form"
+    (ngSubmit)="submitForm()"
+  >
+    <img src="/assets/image/Content.png" alt="Image" />
+    <h1>Log in into account</h1>
+    <h6>Welcome back! Please enter your details</h6>
+    <div class="form_div">
+      <label>Email</label>
+      <input
+        class="field_class"
+        name="email"
+        formControlName="email"
+        id="email"
+        type="text"
+        [(ngModel)]="email"
+        placeholder="Enter your email"
+        autofocus
+      />
+      <label>Password</label>
+      <input
+        class="field_class"
+        name="password"
+        type="password"
+        formControlName="password"
+        [(ngModel)]="password"
+        id="password"
+        placeholder="min length 6"
+      />
+      <button type="submit">Log In</button>
+    </div>
+  </form>
+</main>

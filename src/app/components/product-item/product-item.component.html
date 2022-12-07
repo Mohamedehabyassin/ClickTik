@@ -1,0 +1,58 @@
+<div class="wrapper">
+  <div class="productinfo">
+    <div class="productImage">
+      <img src="{{ product?.thumbnail }}" alt="image" />
+    </div>
+  </div>
+  <div class="productSpecifications">
+    <h1>{{ product?.title }}</h1>
+    <p>
+      {{ product?.description }}
+    </p>
+
+    <div class="productFeatures">
+      <div class="feature">
+        <div class="featureText" style="margin: 9px 0">
+          <p>
+            <strong>{{ product?.price }} $</strong>
+          </p>
+          <p>USD</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="featureText">
+          <p>Brand:</p>
+          <p>
+            <strong>{{ product?.brand }}</strong>
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="featureText">
+          <p>Categoury:</p>
+          <p>
+            <strong>{{ product?.category }}</strong>
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="featureText">
+          <p>In stock:</p>
+          <p>
+            <strong>{{ product?.stock }}</strong>
+          </p>
+        </div>
+      </div>
+      <div class="feature" style="float: right">
+        <div class="featureText">
+          <p><span>&#11088;</span></p>
+          <p style="color:yellow">{{ product?.rating }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cartButton">
+      <button (click)="addToCart()" class="preorder">Add to Cart</button>
+    </div>
+  </div>
+</div>

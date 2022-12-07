@@ -1,0 +1,23 @@
+<div class="container">
+  <section class="cards">
+  <app-product-item
+    *ngFor="
+      let product of productList
+        | paginate
+          : {
+              itemsPerPage: 6,
+              currentPage: page,
+              totalItems: productList.length
+            }
+    "
+    [product]="product"
+  ></app-product-item>
+
+  <pagination-controls
+  class="controls"
+  previousLabel="<"
+  nextLabel=">"
+    (pageChange)="handlePageChange($event)"
+  ></pagination-controls>
+</section>
+</div>

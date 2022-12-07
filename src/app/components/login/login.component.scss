@@ -1,0 +1,48 @@
+* {
+  font-family: "system-ui";
+}
+h1,
+h6,
+img {
+  text-align: center;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  width: 100%;
+
+  .form_class {
+    width: 400px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: white;
+
+    .field_class {
+      width: 100%;
+      border-radius: 6px;
+      border-style: solid;
+      border-width: 1px;
+      padding: 5px 0px;
+      text-indent: 6px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      font-size: 0.9rem;
+      letter-spacing: 2px;
+    }
+
+    button {
+      border-radius: 10px;
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: rgb(54, 52, 52);
+      background-color: #56d9d9;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+    }
+  }
+}
