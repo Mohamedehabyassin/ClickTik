@@ -11,7 +11,7 @@ This project was generated with [Angular CLI] version 14.2.9 using HTML & SCSS f
 5- Add to Cart.<br>
 
 
-## Development server
+## How to run Project
 
 Run `npm install`.
 
