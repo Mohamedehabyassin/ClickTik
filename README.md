@@ -4,11 +4,11 @@ This project was generated with [Angular CLI] version 14.2.9 using HTML & SCSS f
 
 ## Feature
 
-1- Authentication & Authorization.
-2- Display Product name, image, price, description, rating.
-3- Search by Product name.
-4- Filter by Categoury.
-5- Add to Cart.
+1- Authentication & Authorization.<br>
+2- Display Product name, image, price, description, rating.<br>
+3- Search by Product name.<br>
+4- Filter by Categoury.<br>
+5- Add to Cart.<br>
 
 
 ## Development server
